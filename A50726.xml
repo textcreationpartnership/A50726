@@ -1,0 +1,836 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Directions for the Latine tongue by the translator of Religio medici.</title>
+            <author>Merryweather, John.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1681</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 82 KB of XML-encoded text transcribed from 27 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A50726</idno>
+            <idno type="STC">Wing M1877A</idno>
+            <idno type="STC">ESTC R36601</idno>
+            <idno type="EEBO-CITATION">15742636</idno>
+            <idno type="OCLC">ocm 15742636</idno>
+            <idno type="VID">104580</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A50726)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 104580)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1153:1)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Directions for the Latine tongue by the translator of Religio medici.</title>
+                  <author>Merryweather, John.</author>
+               </titleStmt>
+               <extent>[4], 48 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Benj. Tooke ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1681.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Other editions of Religio medici show translator's name: John Merryweather.</note>
+                  <note>Reproduction of original in the Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Latin language</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-04</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-05</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2010-05</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:104580:1"/>
+            <pb facs="tcp:104580:1"/>
+            <p>DIRECTIONS FOR THE Latine Tongue.</p>
+            <p>BY The Tranſlator of <hi>Religio Medici.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Benj. Tooke,</hi> at the <hi>Ship</hi> in St. <hi>Pauls</hi> Church-Yard, 1681.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:104580:2"/>
+            <pb facs="tcp:104580:2"/>
+            <head>THE PREFACE.</head>
+            <p>LIttle or nothing needs more be ſaid to recommend theſe inſuing Sheets to the Judicious or the Curious, beſides acquainting thee that the Author of theſe Directions was the Tranſ<g ref="char:EOLhyphen"/>lator of <hi>Religio Medici</hi> into <hi>Latin;</hi> and by being ſo, hath given an undeniable evidence of his skill and maſtery in both Languages: It was not thought decent to the memory of that Great Man, eſpe<g ref="char:EOLhyphen"/>cially ſome time ſince dead, to place his Name without either his leave or know<g ref="char:EOLhyphen"/>ledge, before ſo ſmall a tract; which was deſigned by him for nothing but private directions to his own Pupils above twenty years agoe; but as tranſcrib'd by as ma<g ref="char:EOLhyphen"/>ny as had heard of it, or could procure it: And had it not fallen into the hands of an Ingenious and Learned Perſon, who had more Charity for the Publique, than to ſuffer ſuch judicious and accurate
+<pb facs="tcp:104580:3"/>
+Directions to remain concealed in a few private hands, it had been in a ſhort time loſt for ever. This manner of writing is plain and familiar, condeſcending to the meaneſt capacity, but the ſubject mat<g ref="char:EOLhyphen"/>ter of it weighty and judicious, and ſome of the Obſervations are unuſual and pecu<g ref="char:EOLhyphen"/>liar. After the firſt difficulties of <hi>Gram<g ref="char:EOLhyphen"/>mar</hi> are conquered, you will not eaſily meet with a better Guide through the beſt Authors of the purer Latin Age; nor a better Director to imitate as well as un<g ref="char:EOLhyphen"/>ſtand them. The publique and famous Schools amongſt us, where the Learned Languages are moſt exactly taught, and without all Pedantry, will find the deſign of this to be manly, and ſo moſt agree<g ref="char:EOLhyphen"/>able with their own: Nor will it be below the careful peruſal of the younger Students in the <g ref="char:V">Ʋ</g>niverſities. If it may be of uſe to any in publique or private, it hath ob<g ref="char:EOLhyphen"/>tained its end; if not, there will be but little money miſpent in the purchaſe, and leſs time in the peruſal.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:104580:3" rendition="simple:additions"/>
+            <head>SOME DIRECTIONS FOR THE BETTER LEARNING OF THE <hi>Latine Tongue,</hi>
+            </head>
+            <p>
+               <hi>Praeceptor. Diſcipulus.</hi>
+            </p>
+            <sp>
+               <speaker>Diſ.</speaker>
+               <p>
+                  <seg rend="decorInit">S</seg>IR, you have often exhorted me, and urged me to take pains to make my ſelf a good Latiniſt, I deſire that you would ſet me in a way for the attainment thereof, and I my ſelf (God willing) ſhall employ my beſt endeavours therein.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>I am very glad to hear you ſay ſo<g ref="char:punc">▪</g> and on my part nothing ſhall be wanting, which may
+<pb n="2" facs="tcp:104580:4"/>
+further your deſire. But firſt tell me what you mean by good <hi>Latin,</hi> for there are not a few which ſpend much time in purſuit of it, and yet never know what it is; like him that went into the Garden to look Celandine, and knew it not when he ſaw it.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Sir, I muſt needs acknowledge my ſelf to be one of that number, for one while I thought I made good <hi>Latine,</hi> when I could patch toge<g ref="char:EOLhyphen"/>ther a great many hard uncouth words, or un<g ref="char:EOLhyphen"/>uſual Phraſes, out of the moſt crabbed Authors into Theams and Orations: another while ha<g ref="char:EOLhyphen"/>ving heard one that was eſteemed a very good Scholar ſay that ſuch Latine was pedantick, con<g ref="char:EOLhyphen"/>ceited and ridiculous, and that that was the beſt Latine that was compoſed of ſuch Words and Phraſes as were found in the moſt approved <hi>Latine</hi> Authors, whereupon I ſet my ſelf to read <hi>Tully, Virgil, Seneca,</hi> &amp;c. gathering out all the beſt Phraſes as I went along, yet I have ſince heard you ſay that one may do all this, and be far from a good <hi>Latiniſt.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>I can eaſily excuſe your ignorance in that particular, having known many, and they not highly graduated in the Univerſity, as far to ſeek in this particular, as you are, if not farther. I ſhall by and by inform you what you are to underſtand by good <hi>Latine,</hi> in the mean time though you do not know what good <hi>Latine</hi> is, yet I ſuppoſe you know what <hi>Latine</hi> is.</p>
+            </sp>
+            <sp>
+               <pb n="3" facs="tcp:104580:4"/>
+               <speaker>D.</speaker>
+               <p>Sir, I think there are few Scholars but they know that.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Not ſo few Scholars as you imagine, I do not doubt but that you are better inſtructed, and more ingenious than to be ignorant, that it is a Language, and that Language which was uſed in <hi>Italy</hi> ſome Ages ago, as <hi>Italian</hi> is now uſed there, or as <hi>Spaniſh</hi> is now uſed in <hi>Spain, French</hi> in <hi>France, Engliſh</hi> in <hi>England.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Sir, ſo I conceive it to be, though indeed I can yet remember the time when I looked upon <hi>Latine</hi> as nothing elſe but a Book full of hard words, to be conſtrued, declined and con<g ref="char:EOLhyphen"/>jugated, with Rules given for them out of the Grammar, not knowing any other end or uſe in them.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Anſwer your ſelf that there are not a few in the world which never raiſe their Learning or Underſtanding ſo high as to caſt off that Notion which you had then of it, I could name one to you who is Maſter of Arts, and beneficed in the Country, who (I having occaſionally ſaid, that <hi>Tully</hi> was happy that learned <hi>Latin</hi> at his Mo<g ref="char:EOLhyphen"/>thers breaſt, not needing to ſpend eight or nine years at the Grammar-School for it, as we ordi<g ref="char:EOLhyphen"/>narily do) replied ſeriouſly that he conceived <hi>Tully</hi> learned as we do, and that it was never vulgarly ſpoken as we ſpeak <hi>Engliſh.</hi> I could name you another who was of far greater ſtand<g ref="char:EOLhyphen"/>ing, and a far greater Divine, one that leads whole Towns after him by the ears, as <hi>Orpheus</hi>
+                  <pb n="4" facs="tcp:104580:5"/>
+did Trees and Stocks: who when I told him upon his demanding of it, that they had not the ſame Grammar in the <hi>Low-Country</hi> Schools which we have in <hi>England,</hi> ſaid ſurely then they did not uſe ſuch kind of <hi>Latine</hi> as we did. I could relate ſeveral paſſages of many others, to ſhew you what ſtrange fancies ſome have of <hi>Latine,</hi> but I haſten to what I propounded, this is enough to let you ſee that I had ſome reaſon for it, when I asked you what you underſtood by <hi>Latine,</hi> which you rightly conceive to be a Language as <hi>Engliſh</hi> is, in times paſt, though not at the preſent, uſed in <hi>Italy,</hi> as <hi>Engliſh</hi> is in <hi>England.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>And that <hi>Latine</hi> is now changed into <hi>Ita<g ref="char:EOLhyphen"/>lian,</hi> now uſed in <hi>Italy</hi> inſtead of it, as the old <hi>Saxon</hi> Language once uſed in <hi>England,</hi> is changed by degrees into this preſent Language we now have, ſo that <hi>Saxon</hi> is as it were old <hi>Engliſh,</hi> and <hi>Latin</hi> old <hi>Italian.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Right, well then, if <hi>Latine</hi> be a Language, then have you no better way to judge of the nature of it, and the manner how to learn it, than by ſome other Language which you know already.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Sir, I know no other but <hi>Engliſh,</hi> and a little <hi>Greek.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>You deſire to know what good <hi>Latine</hi> is.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Yes, Sir.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Firſt then, do you know what good <hi>Engliſh</hi> is? for if you know the one, you may (as I ſaid) judge of the other by it.</p>
+            </sp>
+            <sp>
+               <pb n="5" facs="tcp:104580:5"/>
+               <speaker>D.</speaker>
+               <p>I ſuppoſe a man is ſaid to ſpeak good <hi>Engliſh</hi> when he can expreſs himſelf in ſignificant words, good Language and expreſſion.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>What do you call good Language?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>When a man uſes elegant words, and queint expreſſions, and writes good lines.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>If your Friend come to your Chamber and ſay, Sir, I would deſire you to lend me your <hi>Virgil</hi> for an hour or two, and I ſhall ſend it ſafe back, whether doth he ſpeak good <hi>Engliſh</hi> or no?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Yes, Sir, it were <hi>Engliſh</hi> good enough, but it is not ſuch as we uſually call good <hi>Engliſh,</hi> when we ſay a man ſpeaks good <hi>Engliſh</hi> or ſo.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>You perhaps would count it better <hi>Engliſh,</hi> if he come unto you, and ſay unto you, Moſt eſteemed and worthy Sir, I come here an humble Suiter to your courteous ingenuity, that you would be pleaſed to accommodate me with the ingenious Works of incomparable <hi>Virgil,</hi> but only ſo long as till <hi>Phoebus</hi> have travelled two hours forward to his evening repoſe, after which period of time it ſhall have a ſpeedy and a ſafe return to your ſelf again.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Sir, this is ſuch as I mean, but if my friend ſhould uſe ſuch language to me upon this occaſion, I ſhould rather laugh at his ſimplicity than com<g ref="char:EOLhyphen"/>mend his good <hi>Engliſh.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>What, becauſe he uſeth it upon this occa<g ref="char:EOLhyphen"/>ſion.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I, Sir, I ſuppoſe the former would be a great deal better <hi>Engliſh</hi> upon this or the like occaſion.</p>
+            </sp>
+            <sp>
+               <pb n="6" facs="tcp:104580:6"/>
+               <speaker>P.</speaker>
+               <p>So then, you grant the other to be good <hi>Engliſh</hi> in this place, though it be but plain and homely.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>The better becauſe it is plain.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Plain <hi>Engliſh</hi> is good <hi>Engliſh</hi> then in its due place.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I ſee it is, but what do they mean when they ſay ſuch a man or ſuch a man ſpeaks good <hi>Engliſh:</hi> or why ſhould one man be ſaid to ſpeak better <hi>Engliſh</hi> than another, ſeeing there is no body but can ſpeak as good as this?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>If you take good <hi>Engliſh</hi> in your ſence that ſpeak ſo, you ſhould rather call it good Language than good <hi>Engliſh,</hi> for the one is as good <hi>Engliſh</hi> as the other, but the one is not ſo good Language as the other, <hi>i. e.</hi> not ſo queint and elevated a ſtile, which queintneſs and loftineſs of ſtile is not proper in all places, as you have partly underſtood already, but either in a ſet Speech or written Book, ſeldom in a Letter, and ſeldomer in com<g ref="char:EOLhyphen"/>mon diſcourſe: but of this more hereafter, for the preſent it is enough, that you grant that the firſt plain <hi>Engliſh</hi> as you call it, is good <hi>Engliſh,</hi> and better than the other in its place, though not ſo elevated a ſtile.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>It is clear that it is ſo.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>So then, he that writes or ſpeaks as good <hi>Latin</hi> as this is <hi>Engliſh,</hi> writes and ſpeaks good <hi>Latine,</hi> though never ſo plain if in its due place.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I am forced to grant it.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Is this the good <hi>Latine</hi> then which you de<g ref="char:EOLhyphen"/>ſire to learn.?</p>
+            </sp>
+            <sp>
+               <pb n="7" facs="tcp:104580:6"/>
+               <speaker>D.</speaker>
+               <p>That, Sir, I ſuppoſe I can do already in<g ref="char:EOLhyphen"/>different well with ſuch plain and eaſie <hi>Latine</hi> as that, my deſire is, how I may write queint, elegant <hi>Latine</hi> in lofty ſtile.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Before you come to that I ſee I muſt rectifie your judgment concerning this plain eaſie <hi>Latine,</hi> as you term it, which, howſoever it be plain, yet it is not ſo eaſie as you and many beſide you think it is, there are a great many who can make a ſhift to make a Theam or Oration, or a Paper of Verſes in this kind of elegant <hi>Latine,</hi> who if they ſhould be put to tell a Story, or make a Dialogue, or hold a Diſcourſe, or any ſuch like matter, which requires a plain familiar ſtile, would be at a loſs in every clauſe.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Sir, I cannot conceive how they that can write and ſpeak elegant and queint <hi>Latine,</hi> and Phraſe, ſhould be unable to ſpeak plain ordinary <hi>Latine.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>I ſhall endeavour as well as I can to make you conceive it, and convince you that it is ſo. You muſt know that in an elegant ſtile there is a great latitude and variety of expreſſion, ſo as when you have a word or Phraſe which you think is mean and bald, you can change it for another, and that for another, and vary the ſame con<g ref="char:EOLhyphen"/>ception if need be a hundred ſeveral ways, till you light upon an expreſſion which pleaſeth you, becauſe this kind of <hi>Latine</hi> chiefly depends upon the fancy and tropical expreſſions, which are infinite. In plain and familiar <hi>Latine</hi> it is not
+<pb n="8" facs="tcp:104580:7"/>
+ſo, for in that there is but one, or at leaſt not many, and the certain and definite Phraſes, and forms of Speech for ſuch and ſuch occaſions, which if you do not uſe, you ſpeak improperly, and conſequently bad Language: as for example. If upon the former occaſion of borrowing your <hi>Virgil,</hi> one ſhould ſay thus to you, my Friend, I do deſire you that you ſhall lend to me the Works of <hi>Virgil,</hi> to one or two hours, and I will give it unhurt to you again. Were this good <hi>Engliſh,</hi> or not?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Certainly it is not.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Why, what is the reaſon? The words are all good <hi>Engliſh</hi> words, they are joined together grammatically, and in their right ſignification; what is the reaſon that they are not good <hi>Engliſh?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Sir, I can give no other reaſon, but that it is not proper and uſual to ſpeak ſo.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>But ſuppoſe a Forreigner as a <hi>Frenchman,</hi> or <hi>Italian</hi> were learning <hi>Engliſh,</hi> how ſhall he know that it is not proper, nor uſual to ſpeak ſo? or if that it be not proper, how ſhall he know what is proper? Not by his Grammar, for they are all grammatically ſet together, nor by his Dictio<g ref="char:EOLhyphen"/>nary, for that is the proper and uſual ſignification of the words. How ſhall he know how to ſpeak properly?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Methinks he ſhould not ever happen upon ſuch an uncouth expreſſion, but having conſulted his Grammar and Dictionary, ſhould without any more to do ſay, Sir, I would deſire you to end, &amp;<hi>c.</hi>
+               </p>
+            </sp>
+            <sp>
+               <pb n="9" facs="tcp:104580:7"/>
+               <speaker>P.</speaker>
+               <p>You think ſo, becauſe it is your own Mother Tongue, and you by long uſe and cuſtom have been ſo uſed to this, and no other Phraſe upon this ſubject, that all other ſeem uncouth to you, but to convince you that it is far otherwiſe than you imagine, you muſt know that Language in it ſelf (as I told you even now when I ſpoke of a queint and elegant ſtile) is in ſome manner infi<g ref="char:EOLhyphen"/>nite, there being almoſt no ſentence or form of Speech which may not be changed an hundred ſeveral ways, all which ways in a queint and ele<g ref="char:EOLhyphen"/>gant ſtile are indifferent to be made uſe of, be<g ref="char:EOLhyphen"/>cauſe there none of them is uſed more than ano<g ref="char:EOLhyphen"/>ther, and the leſs they are uſed the better: but in a plain familiar ſtile which we are now ſpeak<g ref="char:EOLhyphen"/>ing of, is one, or ſome few of this large variety in uſe and propriety, and the reſt are never med<g ref="char:EOLhyphen"/>led with, ſeeming as uncouth and ſtrange, as our propoſed examples, which you ſay you ſuppoſe no man could happen upon. Tell me this, ſeeing every thing may be expreſſed ſo many ways, and ſeeing ſome few of the ways are onely proper, becauſe they only are in uſe, the reſt remain un<g ref="char:EOLhyphen"/>couth and ſtrange, Do you think that all Nations have made choice of the ſame ſorms, and ex<g ref="char:EOLhyphen"/>preſſions to be in common uſe, and agreed toge<g ref="char:EOLhyphen"/>ther which ſhould be rejected?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>It were impoſſible that they ſhould, for how ſhould we that ſpeak <hi>Engliſh</hi> know what Phraſes they have made choice of to be in common uſe in <hi>France, Italy</hi> or <hi>Spain?</hi> or what are the com<g ref="char:EOLhyphen"/>mon
+<pb n="10" facs="tcp:104580:8"/>
+Phraſes in <hi>German, Turkiſh,</hi> or <hi>Perſian</hi> Lan<g ref="char:EOLhyphen"/>guage, and as impoſſible would it be for them to know what ours are.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>So that now you muſt confeſs that if one of any of theſe Nations ſhould come to learn our Language, and know the ſignification of all <hi>Engliſh</hi> words, yet he might fall upon as uncouth a Phraſe as that which I propounded.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I am now convinced that he may, for how ſhall he know that theſe are in uſe more than any other in our Language? having one perhaps clear differing from ours in his own Language, and probably ours will ſeem as ſtrange to him as his does to us.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>No queſtion but it will. But this which you rightly apprehend, will be more clear by an inſtance or two. Suppoſe <hi>Latine</hi> were ſpoke in <hi>Italy,</hi> as once it was; here comes one of that Country into <hi>England,</hi> and <hi>Latine</hi> is the Lan<g ref="char:EOLhyphen"/>guage. He hath deſire upon occaſion to ſpeak the ſame in effect, which we have already propound<g ref="char:EOLhyphen"/>ed for an example. The manner of ſpeech in uſe in his Language for the purpoſe is this. <hi>Rogo te, Amice, mihi</hi> Virgilium <hi>tuum ad horam unam aut alteram utendum des &amp; eum tibi reddam integrum.</hi> Which he will probably tranſlate into our Lan<g ref="char:EOLhyphen"/>guage, knowing no other way to utter his mind in particular, ſo that he willcome to you and ſay. I intreat thee, my Friend, that thou maiſt give to me to be uſed thy <hi>Virgil,</hi> to one hour or another, and I ſhall render him to you entire.</p>
+            </sp>
+            <sp>
+               <pb n="11" facs="tcp:104580:8"/>
+               <speaker>D.</speaker>
+               <p>I cannot indeed well conceive how he ſhould ſpeak any otherwiſe, being ignorant of our uſual manner of ſpeech in this particular; but ſurely we ſhould count it very ſtrange <hi>Engliſh.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>If a <hi>Frenchman</hi> ſhould come he would have ſome other kind, which yet would differ as much from our <hi>Engliſh,</hi> and ſeem as ſtrange, the ſame you may underſtand of an <hi>Italian,</hi> of a <hi>Spaniard,</hi> of a <hi>Dutchman,</hi> or any other whatſoever, all would be different, and all uncouth. A <hi>Frenchman</hi> would ſay, My Maſter, I pray you of lending me your <hi>Virgil</hi> for an hour or two, &amp;<hi>c.</hi> A <hi>Dutchman</hi> would ſay, Do me though (<hi>amabo</hi>) your <hi>Virgil</hi> an hour, two, three, and I will give you it back again unhurt. Then ſee how theſe differ both from one another, and you need not think there is leſs variety in the reſt. The ſame variety will appear in any other phraſe. If a <hi>Latiniſt</hi> ſhould ask you how you do, <hi>i. e.</hi> ſalute you at the firſt meeting, he would ſay, according to his own Dialect, <hi>Salve Amice,</hi> Be ſafe Friend. A <hi>French<g ref="char:EOLhyphen"/>man</hi> would ſay, Good day, my Maſter, how do you bear your ſelf? An <hi>Italian,</hi> How ſtands your Lordſhip? or how ſtand you? A <hi>Dutchman,</hi> Good day my Maſter, how goes it with your health? whereas they muſt ſay, if they would ſpeak good <hi>Engliſh,</hi> How do you do Sir, I am glad to ſee you well; for the other are their familiar expreſſions, and this is ours. By what I have ſaid you ſee that the ſame thing may be expreſſed with infinite variety, and that ſome few of thoſe ways are
+<pb n="12" facs="tcp:104580:9"/>
+uſed in a Language, and all the reſt are obſolete and uncouth. So that to the perfect knowledge of a Language is required (beſides the ſignifica<g ref="char:EOLhyphen"/>tion of the words, and the grammatical joining them together) that you acquaint your ſelf with the uſe and cuſtome of a Language, by obſerving what manner of Phraſes and Forms of Speech are uſed in it, upon ſuch occaſions and in ſuch ſubjects, which is the buſineſs, the greateſt labour that belongs to a Language. This propriety and uſe of ſuch and ſuch Phraſes, is called the Idiom or Propriety of a Tongue, and ſuch manner of uſual Phraſes and Expreſſions are called Idiotiſms, and he that hath attained to that perfection in any Tongue, that he can uſe theſe in their due places, without uncouth and unuſual Phraſes, is ſaid to ſpeak pure, <hi>i. e.</hi> properly, or as we ſay, for example, good <hi>Engliſh,</hi> good <hi>Latine,</hi> good <hi>French,</hi> or the like. And now having told you what good <hi>Latine</hi> is, it remains that according to your deſire I give you ſome directions for the attaining of it.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I perceive that I have a greater buſineſs in hand than I dreamed of, for the attainment of <hi>Latine.</hi> I thought that now being an indifferent Grammarian, and able (as I ſuppoſed hitherto) to make a piece of ordinary <hi>Latine</hi> indifferent well, I had not wanted much of a perfect <hi>Latiniſt,</hi> but now I ſee plainly that there is yet ſuch a task for me behind, before I can arrive ever to write good plain ordinary <hi>Latine,</hi> that I am ready to deſpair of attaining to it.</p>
+            </sp>
+            <sp>
+               <pb n="13" facs="tcp:104580:9"/>
+               <speaker>P.</speaker>
+               <p>Why ſhould you ſay ſo?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Why Sir? Becauſe I ſee as you have con<g ref="char:EOLhyphen"/>vinced me that every Language, and particularly <hi>Latine,</hi> hath for every particular occaſion and con<g ref="char:EOLhyphen"/>ception, a peculiar phraſe, and idiom different to all ours; all which to obſerve and be acquainted with, conſidering the multitude and multiplicity of occaſions, ſubjects, and conceptions that will occur, muſt needs be too long a task to be per<g ref="char:EOLhyphen"/>formed in any reaſonable time, or pains.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>If that be all, take a good heart; do but take along with you a conſideration or two, which I ſhall give you, and you will confeſs the difficulty is not ſo great as you imagine it to be at the firſt ſight. Firſt then, you muſt know that a great part of this long task which you ſo fear, is over already: you have with your firſt Rudi<g ref="char:EOLhyphen"/>ments, taken in a great many of theſe Idiotiſms, in learning your Grammar and other School Au<g ref="char:EOLhyphen"/>thors; and for what is ſtill behind, aſſure your ſelf, that one quarter of a year well imploy'd in the way which I ſhall ſet you, will diſpatch ſo much of it, that the remainder will be delight<g ref="char:EOLhyphen"/>ſome, and ſuch as may be purſued with pleaſure. Again, you muſt know that very few do ever at<g ref="char:EOLhyphen"/>tain to ſuch an exactneſs, no not in their own Mother-tongue, as to be acquainted with the ſe<g ref="char:EOLhyphen"/>veral Idiotiſms thereof; but as he is beſt which knows moſt, ſo he may be accounted a Maſter for perfection in a Language, who knows ſo much as he can expreſs himſelf in proper phraſe, at
+<pb n="14" facs="tcp:104580:10"/>
+leaſt in ſome meaſure, upon any ſubject whatſo<g ref="char:EOLhyphen"/>ever: not (I ſay) as though any one could know them all, for there are many times ſeveral ex<g ref="char:EOLhyphen"/>preſſions, not a few<g ref="char:punc">▪</g> and all proper and uſual for the ſame thing; all which you will not ſtand in need of, but only one or two of the choiceſt and moſt receiv'd.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>What Books will you have me to read, to obſerve thoſe Idiotiſms out of?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>That was the next thing which I intended to inſtruct you in; you have already ſeen that good Language and good <hi>Latine</hi> are ſeveral things.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I have ſo, and conceive that I muſt firſt learn to make good <hi>Latine,</hi> and then good Lan<g ref="char:EOLhyphen"/>guage, or elegant Latine.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>That muſt undoubtedly be the way, and here it is clear, that in common Schools they go prepoſterouſly to work, that make <hi>Latine</hi> firſt, or at leaſt their chiefeſt exerciſes; for their Scholars Theams and Verſes, which require elegancy as well as propriety; whereas they ſhould at firſt exerciſe them well in a plain and proper ſtile, by making Epiſtles or Dialogues, or telling of Sto<g ref="char:EOLhyphen"/>ries and making Relations, by which they might learn to ſpeak purely and properly upon every ſubject; for when they can do that, elegancy of ſpeech will come of it ſelf, being a thing that de<g ref="char:EOLhyphen"/>pends upon fancy and invention; for by this prepoſterous courſe of theirs, it comes to paſs, that if you put one of thoſe who have been
+<pb n="15" facs="tcp:104580:10"/>
+taught after this method, to make a Theam or a Speech, they will bring you a piece of ſtuff, patcht up of ſeveral expreſſions, ſcrap'd together out of Poets and Orators, which, if every Bird had its own feather, would have nothing left, but here and there a bald Angliciſm; and if you put them to write an Epiſtle of any familiar matter, or make a relation of ſome occaſional ſub<g ref="char:EOLhyphen"/>ject, you will quickly ſee how far they are from good Latiniſts; for there you ſhall have nothing of them but Engliſh phraſes in Latine words, un<g ref="char:EOLhyphen"/>leſs they can bring in ever and anon one of their Oratorical or Poetical expreſſions, which is ve<g ref="char:EOLhyphen"/>ry incongruous to the matter.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I muſt needs confeſs that it is as you ſay, but would you not have Scholars taught to write elegant <hi>Latine</hi> as well as proper.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Remember to ask me of that again by and by, I will firſt diſpatch what I am in hand with<g ref="char:EOLhyphen"/>all, about plain and proper <hi>Latine,</hi> which I ſay muſt firſt be learn'd, before you learn elegancy of ſpeech. If you were to teach one of theſe Stran<g ref="char:EOLhyphen"/>gers (which I mentioned) <hi>Engliſh,</hi> would you firſt teach him to write ſtrong lines, as we call them, before he could uſe proper expreſſions?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Methinks that is as if one ſhould go about to teach a Child to dance before you teach it to go.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>A Muſician muſt firſt learn Plain ſong be<g ref="char:EOLhyphen"/>fore he come to Diviſion and Diſcant. A Limner muſt firſt learn to draw before he learn to paint:
+<pb n="16" facs="tcp:104580:11"/>
+and a Linguiſt muſt firſt learn to ſpeak in uſual and proper phraſe, before he come to a queint ſtile, and ſtrong lines; but I promiſed to tell you what Authors muſt be read for gaining this pro<g ref="char:EOLhyphen"/>priety of phraſe which muſt firſt be aimed at.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I Sir, I pray do ſo.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>They firſt then in this kind are all <hi>Tullys</hi> works, except his Orations.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>May I read any of the other works indiffe<g ref="char:EOLhyphen"/>rently?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>No, there muſt be choice uſed in them too; his Epiſtles are the plaineſt, and are moſt fit for this purpoſe, containing in them all manner of ſubjects incident, and conſiſting of a plain and familiar ſtile, ſuch as we uſe in common diſcourſe. The other, as his Offices, <hi>De ſenectute, de amicitia, de natura Deorum, de finibus, de oratore, Tuſcul. Queſtions,</hi> do now and then riſe above a quotidian ſtile, which is eaſily diſcernable: Among theſe you may chuſe out ſuch ſubjects as you deſire moſt to benefit your ſelf in; as for example, If you de<g ref="char:EOLhyphen"/>ſire to be well furniſh'd with expreſſions for Diſ<g ref="char:EOLhyphen"/>putations, which is a thing very neceſſary and commendable, take his <hi>Tuſculan</hi> Queſtions, where he brings in meer diſputing Dialoguewiſe, and ſo in other ſubjects.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Pray Sir, why do you except his Orations? for none are more uſually read in Schools than they.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>The Orations are of a quaint and lofty ſtile, and yet not to be medled with, till you have
+<pb n="17" facs="tcp:104580:11"/>
+made good progreſs in the firſt kind of <hi>Latine;</hi> and whoſoever would have their Scholars learn <hi>Latin</hi> out of them ſooner, &amp; indeed before they be better grounded than they uſually are in com<g ref="char:EOLhyphen"/>mon Grammar Schools, will never make good Latiniſts.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>You have already given me convincing reaſons for that: What other Books do you com<g ref="char:EOLhyphen"/>mend beſides <hi>Tully?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>
+                  <hi>Tully</hi> alone were almoſt ſufficient, being ſo large and full of variety for all manner of ſub<g ref="char:EOLhyphen"/>jects: But yet for diverſity, and to ſupply what is wanting in him for common ordinary talk, <hi>Terence,</hi> or <hi>Eraſmus</hi> his Colloquies, the firſt eſpe<g ref="char:EOLhyphen"/>cially for all manner of familiar diſcourſe; the latter both for telling of Stories and Relations; and for diſcourſe, which to do well, is one of the moſt difficult things in a Language. To theſe, it would not be amiſs to add a Book or two of <hi>Caeſars</hi> Commentaries, which will fit you with all propriety of ſpeech concerning Souldiery, Wars, deſcriptions of Countreys, and other terms of Hiſtory, which you will ſcarce find ſo conve<g ref="char:EOLhyphen"/>niently in any other: For as he calls his Book a Commentary, that is, a Journal or ſhort relation of paſſages; ſo he is content to make a bare re<g ref="char:EOLhyphen"/>lation of the carriage and managery of his own War, with ſeveral other Occurrences, without any quaintneſs of Phraſe, or flouriſhes of Rheto<g ref="char:EOLhyphen"/>rick, the only impediment of learning a Lan<g ref="char:EOLhyphen"/>guage.</p>
+            </sp>
+            <sp>
+               <pb n="18" facs="tcp:104580:12"/>
+               <speaker>D.</speaker>
+               <p>You have told me what Books I muſt read, I would now deſire you to give me ſome rules for the profitable reading of them.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>That I ſhall ſcarce need to do, if you have well obſerved what I have already told you con<g ref="char:EOLhyphen"/>cerning the nature and propriety of a Language; it will be neceſſary in this reading of Authors, for the better obſerving the Idiom of every ſentence and form of ſpeech, to turn it into <hi>Engliſh</hi> as you go along, comparing it with the idiom of your own Language, and noting their difference down in a Paper-book for that purpoſe, as oft as you meet with any thing obſervable, that is, with any thing you did not know before, or which you might have failed in, had you been to make that into <hi>Latine,</hi> without the knowledge of that <hi>Latin</hi> Idiotiſme; as for example, read me any Sentence out of your <hi>Terence.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Where ſhall I read?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Any where; read the beginning of the ſecond Act, and the third Scene of <hi>Andria.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Quid igitur ſibi vult pater? cur ſimulat? ego dicam tibi.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>
+                  <hi>Quid igitur ſibi vult pater?</hi> How will you Engliſh that?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>what is my Father's meaning? or what doth my Father intend?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Suppoſe you had had this <hi>Engliſh</hi> to have put into <hi>Latine?</hi> how would you have done it?</p>
+            </sp>
+            <sp>
+               <pb n="19" facs="tcp:104580:12"/>
+               <speaker>D.</speaker>
+               <p>I believe ſcarce as it is here; if I had not known otherwiſe the <hi>Latine</hi> phraſe before, I ſhould have ſaid perhaps, <hi>Quaenam eſt intentio patris?</hi> or ſo.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>It is not improbable you would; take then your Paper-book and write down, <hi>Quid igitur:</hi> What means he then? adding to it ſuch a cauti<g ref="char:EOLhyphen"/>on as this when it is needful, not <hi>tum,</hi> not <hi>quaenam eſt intentio ejus?</hi> But of this kind of exerciſe I ſhall give you a large example apart hereafter, out of which you will better underſtand the nature of it than by any precepts.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>But methinks Sir, that it ſhould be an infi<g ref="char:EOLhyphen"/>nite and endleſs task, to go through a Book on this faſhion; for I ſhall probably find ſome diffe<g ref="char:EOLhyphen"/>rence in the Idiom, and conſequently ſomthing to obſerve, and to ſet down almoſt in every clauſe; nay, when I find no difference, as in this which follows here, <hi>Ego dicam tibi,</hi> I ſuppoſe it would not be amiſs to ſet that down, that I might know in this, or ſuch an Idiotiſme, there is no difference between us and <hi>Latine.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>It were good to do indeed as you ſay; but for the endleſneſs of the task, it is no Tye, ſo as you imagine at the firſt apprehenſion. Remem<g ref="char:EOLhyphen"/>ber what I have already told you, that you know many of thoſe Idiotiſmes already, that no man knows them all, neither are they all neceſſary to be known; and aſſure your ſelf, had you but gone through one Comedy in <hi>Terence</hi> thus, with a Colloquie or two in <hi>Eraſmus,</hi> and half a dozen
+<pb n="20" facs="tcp:104580:13"/>
+of <hi>Tullys,</hi> you were in a manner already a La<g ref="char:EOLhyphen"/>tiniſt.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>If that were ſo, it would be a great en<g ref="char:EOLhyphen"/>couragement to me.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Though as a Learner you are bound to be<g ref="char:EOLhyphen"/>lieve your Teacher, in what faculty ſoever it be, and therefore it ſhould be enough to you that I ſay ſo: Yet the better to convince you of it, know, Firſt, that by that time you have done ſo much, you will have got moſt of the moſt uſual Phraſes, and common Idiotiſms, ſo that the re<g ref="char:EOLhyphen"/>mainder will lye thin, here and there ſcattered, which to glean up, will be no toyl, but a delight. Again, know that before you have done thus much, you ſhall begin to meet with the ſame Idiotiſme again, and again, as alſo with variety of them for the ſame thing, which to obſerve and compare together, you will find delight ſome. And laſtly, in the Idiom of the Language, which when you once come to, you will find ſuch a de<g ref="char:EOLhyphen"/>light in, that it will draw you on with the great<g ref="char:EOLhyphen"/>eſt pleaſure imaginable, and never let you reſt till you have fully attained it. Take this from me as a ſecret which I have proved by experience, in the learning of five ſeveral Languages: It is no greater delight to read the moſt delightful Story, or the moſt pleaſant Romance, than to read any thing in a Language, which you once got the Idiom of; without which, as you ſhall never fully and perfectly underſtand the matter of which the Book treats, ſo ſhall you never have any relliſh,
+<pb n="21" facs="tcp:104580:13"/>
+or take any delight in the reading of it; and if in this particular you ſhould not believe me, or think it my peculiar Genious to take ſuch delight in it, hear what <hi>Vigerius</hi> that exact <hi>Graecian</hi> ſays, to the ſame purpoſe in his Epiſtle to his <hi>Greek</hi> Idiotiſmes. <hi>Ita enim ſe res habet</hi> (ſaith he) <hi>ut nonnullo quoque dicendi uſa dicimus, linguae omni Graecaeque praeſertim ſuus quidam eſt ac ſingularis genius, &amp; certis quaſi for<g ref="char:EOLhyphen"/>mulis alligens, quam ſimul ac deprehendere coeperis ames continuo, ne ante perſequi deſinas quam aſſe<g ref="char:EOLhyphen"/>quaris idem, niſi te afflaverit fruſtra ſuades, nec minus inani quam moleſto labore jactoris neceſſe eſt.</hi> For thus it is (ſays he) as by ſome experience in teach<g ref="char:EOLhyphen"/>ing I have found; every Language, but eſpecially the <hi>Greek,</hi> hath a certain peculiar ſtream or ge<g ref="char:EOLhyphen"/>nius reſtrained within certain Phraſes or forms of ſpeech, which as ſoon as you get hold of, you preſently fall in love with, and never give over till you have attain'd it; and if you do not come to get a taſte of this, you will aſſuredly loſe your labour, and your pains will be as fruitleſs and toylſome. So he; whoſe teſtimony (as I ſay) I can approve by experience. But add further; though reaſon ſhould not inforce you to believe this, yet, that I as your inſtructor, have authority to enjoyn you to believe that it is not ſo difficult and ſo tedious a thing (if you ſet your ſelf about it in a right way) as you perhaps think it is to learn a Language, and as indeed we uſually make it here in <hi>England</hi> to learn <hi>Latine;</hi> you ſhall have one that is any thing Studious, learn both to
+<pb n="22" facs="tcp:104580:14"/>
+ſpeak and write perfect <hi>French</hi> or <hi>Italian,</hi> and the pronounciation in two years time, or leſs, which Languages do, notwithſtanding, require little leſs pains, either <hi>Grammar</hi> or Idiom than <hi>Latine,</hi> be<g ref="char:EOLhyphen"/>ſides the difficulty in pronounciation, which in <hi>Latine</hi> you are not much troubled with. In the Low-Countreys, you ſhall have a Lad ordinarily of 15. or 16. years old, ſpeak <hi>Latine</hi> and <hi>French</hi> both, and both very well, and in propriety. Nay, I met with one not much above the ſame Age, who ſpoke both <hi>Latine, Spaniſh, Italian,</hi> and <hi>High-dutch,</hi> beſides <hi>Flemiſh</hi> and <hi>French,</hi> which were both in a manner his Native tongues, being Born in the Borders of <hi>France</hi> and <hi>Flanders;</hi> and in any of thoſe he would maintain any ordi<g ref="char:EOLhyphen"/>nary diſcourſe, without any remarkable impro<g ref="char:EOLhyphen"/>priety of Speech: And what ſhould be the reaſon then that <hi>Latine</hi> amongſt us at ſeven, eight, nay ten or twelve years ſhould be ſo difficultly attain'd to, and that without any great perfection too, but that we are out of the way and the method?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>It is very probable.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>The conſideration of this did at firſt clearly convince me, though I knew it in a confuſed manner before, that we ought to go the ſame way to work in learning of <hi>Latine,</hi> which they do both in learning that and other Languages.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Pray Sir what way do ye go?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Why after ſome few Grammar grounds, which are as ſhort, and yet as exact too as may be, they come to this obſervation of the proprie<g ref="char:EOLhyphen"/>ty
+<pb n="23" facs="tcp:104580:14"/>
+and Idiom, and never meddle with any quaint<g ref="char:EOLhyphen"/>neſs of ſtyle, till that be in ſome meaſure attain'd; and to this purpoſe, both their ordinary exerciſe, both there and in <hi>France,</hi> are only ſuch as require a plain and familiar ſtyle; to wit, writing of Let<g ref="char:EOLhyphen"/>ters, &amp; making of Dialogues, &amp; Relations of ordi<g ref="char:EOLhyphen"/>nary paſſages, as Going abroad, Buying &amp; Selling, and the like; Verſes and Orations being only proper to the two laſt years in the Grammar-School, &amp; that in ſeveral Forms, &amp; with ſeveral Maſters; for there every Form hath a ſeveral Ma<g ref="char:EOLhyphen"/>ſter belonging to it, and they are commonly ſeven in number, in every of which, Boys make their ſtay according to their proficiency: The firſt four years they commonly imploy to make them Latiniſts, the next in Humanity (as they call it) that is Hiſtory, Mythology, and the like; the ſixth in Oratory and Poetry, and in the two next after, which they continue alſo in the ſame School, they go through all Philoſophy as far as our Batchelors of Art in the Univerſity, for this is alſo taught in their publick Schools; and then after that, ſuch as have a mind to Study Law, Divinity, Phyſick, or the like faculty, go to the Univerſity for it.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>So that it ſeems in eight years ſpace, after they can well Write and Read, they are made in their ordinary Schools as good Scholars as our Batchelors of Arts.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>They are ſo, and many often in leſs time, if they be capacious and diligent.</p>
+            </sp>
+            <sp>
+               <pb n="24" facs="tcp:104580:15"/>
+               <speaker>D.</speaker>
+               <p>Capacity and diligence muſt needs be things of no ſmall importance, and therefore I ſuppoſe, if Boys, who are generally averſe from Learning, and will commonly learn no more than they needs muſt, are yet ordinarily brought to be good Latiniſts in four years ſpace; one that would ſet himſelf about it with ſtudy and ear<g ref="char:EOLhyphen"/>neſtneſs, would do as much in one year or two at the moſt.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>No queſtion but he might: I knew a Boy once, and one not of the largeſt capacity neither, that having been taught to Write and Read, and having learn'd his Accidence, with ſome part of <hi>Propria quae maribus,</hi> gave over School at ten years of Age for the ſpace of five years; his Parents be<g ref="char:EOLhyphen"/>ing but of mean eſtate, and intending nothing leſs than to make him a Schollar; to which not<g ref="char:EOLhyphen"/>withſtanding he having a deſire, got his Friends o let him go to School again, when he was about 15 years of age; after which, in a year and a halfs time, he learnt both <hi>Greek</hi> and <hi>Latine,</hi> and went to the Univerſity, though perhaps not ſo well grounded as he ought to have been, but I am ſure as well as moſt go out of Country-Schools, and had he been ſet in a right way, might probably with the ſame pains have at<g ref="char:EOLhyphen"/>tained to greater perfection in the ſame time, though I ſay, his Maſters care was as commenda<g ref="char:EOLhyphen"/>ble as his own diligence.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Sir, I have heard that you got your Learning in as ſhort a ſpace.</p>
+            </sp>
+            <sp>
+               <pb n="25" facs="tcp:104580:15"/>
+               <speaker>P.</speaker>
+               <p>It matters not much who it was: Thus much take from me, that it is very true, and my end in relating of it, is to let you ſee that learning of a Language, however it may ſeem at firſt, as it doth, I perceive, to you a thing very laborious and difficult, yet with a little pains and time, rightly imployed, will be found otherwiſe. And if from the firſt Rudiments ſuch a time will ſerve ſor ſome proportionable attainment of it how much leſs will ſerve ſuch an one as you, that have already thus far proceeded in it?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Sir, your diſcourſe hath now delivered me from that diſcouraging apprehenſion, which I had of the difficulty and tediouſneſs of the buſi<g ref="char:EOLhyphen"/>neſs: So that now I can reſolve to ſettle to it as a thing facile; only I ſhall deſire you to give me leave to ask you another queſtion or two, which I ſuppoſe will not be altogether impertinent.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>You cannot pleaſe me better, than to ask me queſtions in whatſoever may concern your own improvement, and therefore ask freely, both now and at other times, whatſoever you deſire ſatisfaction in.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Sir, I ſuppoſe this Note-book which you would have me make for my Idiotiſmes, will be but a kind of Phraſe-book; now ſeeing there is great variety of theſe Printed, and to my hand, whether would not one of them ſerve me as well?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>By no means, and that for many Reaſons.</p>
+               <p>
+                  <pb n="26" facs="tcp:104580:16"/>Firſt, Becauſe though there be many kinds of them, yet none are made in that manner which I aſcribe moſt advantagious, becauſe they do not give the particular ſignification of every Phraſe by it ſelf, nor ſet down the difference of Idiotiſms, which is chiefly to be obſerved, but only put down own Sentence or Conception in general, and reduce many Phraſes to it, as to an head or common place which have any affinity with it.</p>
+               <p>Secondly, Becauſe many times they confound Idiotiſmes with Elegancies, or expreſſions of fancies, which if they be not diſtinguiſhed, you ſhall never find any end of your labour: For Idio<g ref="char:EOLhyphen"/>tiſmes, though they be not few in number which belong to a Language, yet is the number of them certain and definite. But expreſſions of fancy (as I have told you already) are infinite, and eve<g ref="char:EOLhyphen"/>ry where various and different, according to the genius and fancy of the Author.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>How may I know an Idiotiſme from an ex<g ref="char:EOLhyphen"/>preſſion of fancy?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Ask me by and by and I ſhall tell you.</p>
+               <p>Thirdly, My third Reaſon againſt your com<g ref="char:EOLhyphen"/>mon Phraſe-book, is, becauſe they only gather ſuch Idiotiſmes as conſiſt in whole clauſes or ſentences, neglecting thoſe which conſiſt in ſingle words, and ſmall particulars, as Adverbs, Con<g ref="char:EOLhyphen"/>junctions, Praepoſitions, &amp;<hi>c.</hi> which are not leſs if not more to be regarded, as you will find by diligent obſervation, as I ſhall ſhew in thoſe large examples which I promiſed you.</p>
+               <p>
+                  <pb n="27" facs="tcp:104580:16"/>Fourthly, My laſt Reaſon is, becauſe they are gathered to your hand already; for the main ad<g ref="char:EOLhyphen"/>vantage which you reap by this exerciſe, conſiſts more in the gathering of them, than in having them already gathered; becauſe this by little and little imprints them in your mind, and the frequent meeting with the ſame Phraſe or Idio<g ref="char:EOLhyphen"/>tiſme in your reading, and comparing it with o<g ref="char:EOLhyphen"/>thers which are allyed to it, fixeth them ſo in your memory, as to have them ready at hand up<g ref="char:EOLhyphen"/>on occaſion, which you ſhall never have by a Printed Phraſe-book, though you ſhould get it without book. Theſe are my Reaſons why I account them inſufficient. Before I go any fur<g ref="char:EOLhyphen"/>ther, I ſhall ſatisfie your demands concerning the difference betwixt an Idiotiſme and an ex<g ref="char:EOLhyphen"/>preſſion of fancy.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>That indeed I would willingly know.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>The difference in ſhort is no more but this, as I have in a manner told you before. An Idio<g ref="char:EOLhyphen"/>tiſme is generally uſed of every one in plain and familiar ſpeech: An expreſſion (for ſo I ſhall hence<g ref="char:EOLhyphen"/>forth call it, to diſtinguiſh it from an Idiotiſme) every man hath, or may have peculiar to himſelf. As for example: In <hi>Engliſh,</hi> if I ſhould ſay thus, I have not received a Letter from you this twelve month; this were an Idiotiſme, becauſe a com<g ref="char:EOLhyphen"/>mon and uſual Phraſe which every man in fami<g ref="char:EOLhyphen"/>liar ſpeech uſeth upon the ſame occaſion: But if I ſhould ſay, The Sun hath once compleated his yearly Circuit ſince you grac'd me with a Letter
+<pb n="28" facs="tcp:104580:17"/>
+from you; this were an expreſſion; becauſe any man may form the like according to his own fan<g ref="char:EOLhyphen"/>cy: As another might have ſaid in the ſame ſence, The Sun hath made his annual progreſs through all his Caeleſtial Houſes, ſince I broke up the Seal of one of your Letters. Another thus: <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> run through all the lines in the Zo<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> ſaw one from you. Another thus, <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> now the ſecond <hi>Auguſt</hi> ſince I ſaw your hand at a Letter. Another thus: You write Letters to me as men do Almanacks, once a year; and ſo a thouſand ways, according as every mans fancy leads him. I ſuppoſe I need not ſhew you the ſame over again in <hi>Latine:</hi> you will eaſily un<g ref="char:EOLhyphen"/>derſtand from what I have already ſaid, that whether in <hi>Engliſh</hi> or <hi>Latine;</hi> or what Language ſoever, the true and only difference betwixt an Idiotiſme and expreſſion is; that the one is common and familiar in all mens mouths upon ſuch a ſubject, and the other uſed but of one, or at leaſt borrowed of him by ſome few others; as we ſee men will many times make uſe again and again, of an expreſſion which they like, having had it from the mouth of another, or met with it in ſome Book. And ſo eſſential is the difference which I have already laid down, that if any ex<g ref="char:EOLhyphen"/>preſſion of fancy come to be vulgarly uſed, it ceaſeth to be an expreſſion, and becomes an Idio<g ref="char:EOLhyphen"/>tiſme, as were eaſie to ſhew by examples in our own Language. Our common form of ſpeech uſed to be: Sir, I ſhall make bold to come and
+<pb n="29" facs="tcp:104580:17"/>
+ſee you by and by. After, ſome made uſe of this, as a more elegant and civil expreſſion: Sir, I ſhall take the boldneſs to wait upon you; which is now grown as common as the other, and there<g ref="char:EOLhyphen"/>fore is no longer an Expreſſion, but an Idiotiſm. We uſed to ſay, I do verily believe ſuch a thing; then came in theſe and the like expreſſions; I verily perſwade my ſelf; I am very confident; or, I do aſſume my ſelf of ſuch and ſuch a thing, and the like; which, however at firſt when they were new, they were Expreſſions, yet being now grown common and familiar, they paſs for Idiotiſms. Nay, it is very probable that moſt of our common Expreſſions and Phraſes, which are now moſt common and vulgar, were quaint and new Expreſſions, and made Idiotiſms by common uſe, in which conditions they ſhall continue, till other new ones come in their places, and uſurp their rooms, which I conceive to be the chief, if not the only cauſe of that viciſitude and change which Languages are obnoxious unto<g ref="char:punc">▪</g> as well as other things: For whilſt we naturally grow wea<g ref="char:EOLhyphen"/>ry of old things, and delight in novelties, it comes to paſs that old words and Phraſes give place to new ones; and perhaps old Antiquated ones, after ſome Ages, like old faſhions, come into requeſt again, as <hi>Horace</hi> tells us;</p>
+               <lg>
+                  <l>Multa renaſcentur, quae jam cecidére, cadent que</l>
+                  <l>Quae nunc ſunt in honore vocabula ſi volet uſus,</l>
+                  <l>Quem penes arbitrium eſt &amp; jus &amp; norma loquendi.</l>
+               </lg>
+            </sp>
+            <sp>
+               <pb n="30" facs="tcp:104580:18"/>
+               <speaker>D.</speaker>
+               <p>This being then the difference (as you have ſhown me) betwixt an Expreſſion and an Idio<g ref="char:EOLhyphen"/>tiſm, I ſuppoſe that it will be conſequent to ſay, that whenſoever a man will ſpeak or write a fami<g ref="char:EOLhyphen"/>liar ordinary ſtyle, he muſt uſe Idiotiſms, which are common Expreſſions; and when he would ſpeak or write a ſtyle more raiſed or quaint, he muſt uſe Expreſſions, <hi>i. e.</hi> ſuch forms of ſpeech that are not made vile &amp; cheap, as it were, by commun Uſe.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Very right; and as we laugh at him, who in any thing that requires Elegancy, as (in ſet ſpeech, or the like) uſeth common homely ex<g ref="char:EOLhyphen"/>preſſions, letting his ſtyle (as we ſay) creep upon the ground. So on the contrary, he is as ridicu<g ref="char:EOLhyphen"/>lous that in common and ordinary talk affects ſtrong lines and bombaſt phraſes (as we call them) which perhaps would fit well in another place.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>To return again to my queſtion concerning Phraſe-books, it ſeems Sir, that you do not al<g ref="char:EOLhyphen"/>low any one of thoſe Printed ones, but only ſuch as are of my gathering.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>There is one notwithſtanding which may be made ſome Uſe of, and that is <hi>Eraſmus de copia verborum,</hi> who according to his extraordinary per<g ref="char:EOLhyphen"/>fection in that Language, hath briefly gathered together in that little Book, under a certain num<g ref="char:EOLhyphen"/>ber of pertinent heads, moſt of the conſiderable Idiotiſms of that Language; and the way to be<g ref="char:EOLhyphen"/>nefit by that Book, would be now and then to ſpend an hour or two in turning them into <hi>Eng<g ref="char:EOLhyphen"/>liſh,</hi> and tranſcribing them into the Note-book,
+<pb n="31" facs="tcp:104580:18"/>
+after the ſame manner which I preſcribed you for the reading of your Authors.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Is there no other Book of that nature, that can be made uſe of?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>There is one more, but not altogether of that nature, which I muſt needs commend to you.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>What is that I pray Sir?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>
+                  <hi>Laurentius Valla de elegantiis,</hi> which I would adviſe you by all means to joyn with the reading of the preſcribed Authors, for he hath in a great part done to your hand what you read theſe Au<g ref="char:EOLhyphen"/>thors for, gaving gathered a great part of theſe Idiotiſms and proprieties together.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>How Sir? hath he gathered them better than <hi>Eraſmus?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>He goes in a way plain different from him; <hi>Eraſmus</hi> only, or chiefly gathers Phraſes and Sen<g ref="char:EOLhyphen"/>tences, but <hi>Valla</hi> hath taken the moſt pains in ſhewing the true and proper ſignification of par<g ref="char:EOLhyphen"/>ticular words, and the right Uſe of thoſe particu<g ref="char:EOLhyphen"/>lars which I ſpoke of before; and indeed, in theſe things as much as any, conſiſts the Idiom of a Language.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Pray Sir, what will be the beſt way to read his Book with advantage?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Why having read over a Chapter, which commonly is very ſhort, and treats but of one word or Idiotiſm, contract the ſubſtance of it as briefly as you can, and ſo write it down in your Paper-book.</p>
+            </sp>
+            <sp>
+               <pb n="32" facs="tcp:104580:19"/>
+               <speaker>D.</speaker>
+               <p>Muſt I write it down in <hi>Latine</hi> or in <hi>Engliſh?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Only the Phraſe or Word it ſelf in <hi>Latine,</hi> but all the Explication of it, as much as needs, in <hi>Engliſh.</hi> Take for an example if you will, the particular Idiom of the Verb <hi>Committo,</hi> which beſides its ordinary ſignification, it often hath, and is then followed with (<hi>ut</hi>), and ſometimes with <hi>Quamobrem:</hi> When it hath <hi>ut</hi> after it, I perceive by his example, it ſignifies the ſame in this Idi<g ref="char:EOLhyphen"/>otiſm that we expreſs by this Engliſh Phraſe. Be ſure you do not ſuch or ſuch a thing; and when it hath <hi>Quamobrem,</hi> the ſame that this, I will be ſure never to give any occaſion why I ſhould not do ſo, or ſo; which you may ſet down in ſhort in your Paper-book thus,</p>
+               <q>
+                  <hi>Lib. 3. Cap. 56. Committo</hi> with <hi>ut,</hi> or <hi>Quamobrem.</hi>
+               </q>
+               <p>
+                  <hi>Non committam ut mihi dicendum ſit, non putaram,</hi> I will be ſure never to be put to ſay, <hi>Non putaram. Nihil committam quamobrem non eò veniam;</hi> I will be ſure never to give any occaſion why I ſhould not come there, or which may hinder me from coming there: And thus have you a brief ſum of the Chapter, and may in the ſame manner con<g ref="char:EOLhyphen"/>tract the reſt according to your own fancy, ſome one way, and ſome another, but of this I ſhall alſo give a larger example apart; for I would have you read theſe Books of <hi>Valla</hi> very diligently, be<g ref="char:EOLhyphen"/>cauſe they will ſave you a great deal of labour in
+<pb n="33" facs="tcp:104580:19"/>
+collecting at random; and indeed Books of that nature are the chief helps for getting of Lan<g ref="char:EOLhyphen"/>guages. And I ſhall adviſe you, that what Language ſoever you learn, and deſire to be ex<g ref="char:EOLhyphen"/>act in, that you will get ſuch a one of that Lan<g ref="char:EOLhyphen"/>guage, if it be to be had. In <hi>Latine</hi> you have this; In <hi>Greek</hi> you have <hi>Vigerus,</hi> his Idiotiſms: In <hi>Italian, French,</hi> and <hi>Spaniſh,</hi> you have them more plentifully. But ſo much for this; I have now, I ſuppoſe, ſatisfied you concerning Phraſe<g ref="char:EOLhyphen"/>books; what other queſtion would you ask me?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>When you firſt mentioned <hi>Valla de elégan<g ref="char:EOLhyphen"/>tiis,</hi> I was in hope you were going to ſpeak ſome<g ref="char:EOLhyphen"/>thing concerning the manner of attaining elegant <hi>Latine,</hi> which before I deſired to know of you; but ſeeing his Book gives you not occaſion to ſpeak of it, I make bold to put you in mind of it again, as you then willed me.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>You deſire to know how one may write or ſpeak quaint elegant <hi>Latine.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>IS r, firſt whether it may be learn'd or no? and then how? for you ſeem'd before to inti<g ref="char:EOLhyphen"/>mate that it cannot, or ought not to be learn'd.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>There is a great deal of difference betwixt learning this and the other plain familiar <hi>Latine,</hi> which is as it were the ground-work in a Lan<g ref="char:EOLhyphen"/>guage, and muſt only be learn'd out of Books, becauſe there only you can have thoſe Idiotiſms which are proper to every ſubject and occaſion, and without which you cannot deliver your mind
+<pb n="34" facs="tcp:104580:20"/>
+in a familiar diſcourſe without the cenſure of af<g ref="char:EOLhyphen"/>fectation.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I have obſerved already that it is ſo; but pray Sir, what may be the reaſon of it?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Becauſe expreſſions of fancy, being not in ordinary way of delivery, but ſuch as ſcorn the common road, and beaten path of Language, raiſing themſelves aloft as it were, and ſoring a<g ref="char:EOLhyphen"/>bove the pitch of ordinary parts and wits, he that uſeth them, will always make ſhew of oſten<g ref="char:EOLhyphen"/>tation of Parts, Wit, or Language above other men; which kind of oſtentation in words; is called affectation. Now on the other ſide, in a ſet Speech or Verſes, or Books, it is both ſup<g ref="char:EOLhyphen"/>poſed and expected that a man ſhould take pains to expreſs himſelf above the ordinary rate of vul<g ref="char:EOLhyphen"/>gar words and phraſes; and therefore in ſuch caſes there is no fear to be cenſur'd for affectation, if it be done with diſcretion, and the ſtile ſuited to the matter in hand: You ſee then the neceſſity of knowing all theſe vulgar forms of ſpeech, which I call Idiotiſms: In this regard amongſt the reſt, that you may ſpeak without affectation, which (as I told you before) you have no other way to judge of ſo well, as by your own Language, wherein you are beſt acquainted, and therefore when a man ſpeaks with affectation and when not; becauſe you do know when he uſeth Idio<g ref="char:EOLhyphen"/>tiſms, and when not, which in <hi>Latine,</hi> or any o<g ref="char:EOLhyphen"/>ther Language which you are not yet very well ex<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>re<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s'd and familiar in, you cannot be ſo ſenſible
+<pb n="35" facs="tcp:104580:20"/>
+of, not<g ref="char:punc">▪</g> knowing ſo exactly, for want of uſe, what Phraſes are Idiotiſms, and what are ex<g ref="char:EOLhyphen"/>preſſions: But when by diligent and frequent obſervation of your Authors you can diſtinguiſh them, you will be as ſenſible of the affectation in <hi>Latine,</hi> as you are of it in <hi>Engliſh;</hi> which you may alſo apply to the diſtinguiſhing of propriety of ſpeech in a Language, which many are not ſenſible of in <hi>Latine,</hi> or any other forreign Lan<g ref="char:EOLhyphen"/>guage for want of uſe and familiarity of it, to know what is proper, and what improper: But to one that is exerciſed in a Language as he ought to be, ſuch impropriety of ſpeech is as ſen<g ref="char:EOLhyphen"/>ſible, as it is to you in your own Language. As for example, Look how ſtrange and uncouth it is in <hi>Engliſh,</hi> to ſay Be ſafe friend, inſtead of ſaying How do you Sir; or to ſay You come moſt wiſhed for, inſtead of ſaying. You are very welcome; or to ſay, I do not hear it being merry, inſtead of ſaying, I am ſorry to hear it: ſo uncoath it is in any other Language, to thoſe that are well exerciſed in it, to uſe any phraſe or manner of ſpeech which is not uſually received. Now to return from the digreſſion to our purpoſe, that Idiotiſms are only to be learned out of books in <hi>Latine,</hi> becauſe it being not now vulgarly ſpo<g ref="char:EOLhyphen"/>ken, as moſt other Languages are; you have none other way to know what an Idiotiſm is, and what not. But for a quaint ſtile, and elegant <hi>Latine,</hi> the learning whereof you deſire to be in<g ref="char:EOLhyphen"/>formed in, though it may be, and always is much
+<pb n="36" facs="tcp:104580:21"/>
+helped by books, yet doth it more depend on a mans peculiar fancy and genius.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Sir, I would deſire you, if you pleaſe, firſt to ſhew me how it depends upon a mans fancy and genius; and then how it may be helped by reading.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>I ſhall for the firſt then: You muſt know that all elegancy of ſpeech, and quaintneſs of phraſe, eſpecially in reſpect of the ſignification of words, howſoever it is very large, and in ſome manner infinite, as we may perceive by that in<g ref="char:EOLhyphen"/>finite variety of expreſſion of the ſame thing which we find in Orators and Poets; none of them ever uſing (or at leaſt frequently) the ſame expreſſion which either themſelves or others have had before; yet is there not one expreſſion in all this large variety of Language and elegancy which is not deduced to one of the four Tropes uſually taught in Rhetorick, <hi>Metonymia, Ironia, Metaphora, Synecdoche,</hi> as you will eaſily perceive by a little obſervation. Now you know that theſe Tropes, howſoever they be taught by Art, which in this as in other things, may be helpful to na<g ref="char:EOLhyphen"/>ture: Yet we do find by common experience, that he that is not naturally inclin'd by his own genius to make uſe of thoſe Tropes in his ex<g ref="char:EOLhyphen"/>preſſion, will never be brought by Art to any conſiderable perfection in it: We ſee in com<g ref="char:EOLhyphen"/>mon Engliſh ſome naturally expreſs themſelves by Similitudes and Metaphors, which they ne<g ref="char:EOLhyphen"/>ver ſtudied for; others likewiſe by contraries or
+<pb n="37" facs="tcp:104580:21"/>
+Ironies, and ſo of the reſt as their peculiar fancy leads them. And he that can properly once ex<g ref="char:EOLhyphen"/>preſs himſelf in plain Phraſe, will eaſily as he hath a mind, raiſe himſelf to a figurative ex<g ref="char:EOLhyphen"/>preſſion. As for example: He that can ſay ſuch an one hath a great opinion of himſelf, can (if he have a mind to expreſs himſelf better) ſay one is ſwoln or puft up with ſelf-conceit. He that can ſay ſuch an one deſires and ſeeks after honour, can ſay (if he have a mind) ſuch an one hunts or pants after honour; or by an Ironie, ſuch an one cares not at all for honour; or by a Metonymy, ſuch an one deſires to be cring'd to, or ſtood bare to by others; and ſo in any other. For any one that once knows the true and proper ſignification of words, can eaſily make uſe of them for any tropical and figurative expreſſion.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>This, Sir, I now fully conceive, <hi>viz.</hi> how this elegancy of ſpeech depends upon the fancy: I deſire now that you will ſhew me what uſe may be made of books to this purpoſe, which was the ſecond thing.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>In attaining to elegancy of ſpeech, you are not to make the ſame, nor ſo much uſe of books to this purpoſe as ſome ignorantly do, who will not uſe any form of ſpeech or expreſſion but what they find in ſome Latine Authors; ſo that their Latine is nothing elſe but a <hi>cento,</hi> or a patcht compoſition, piec'd together out of ſeveral books: But ſuch as thoſe know not the difference be<g ref="char:EOLhyphen"/>tween an Idiotiſm and an expreſſion. The firſt
+<pb n="38" facs="tcp:104580:22"/>
+whereof are indeed to be had out of books, the o<g ref="char:EOLhyphen"/>ther from the fancy: There are again others, who though they do not tye themſelves ſo ſtrictly to the expreſſion of their books, yet are they ſo de<g ref="char:EOLhyphen"/>ſirous to bring out of themſelves what they can, that many times they bring in things very incongruouſly and improperly, which either ex<g ref="char:EOLhyphen"/>preſs more or leſs than the matter requires; or at leaſt break that integrity and evenneſs which ought to be in a ſtile. A third and laſt ſort there are of others, who becauſe they have ſome con<g ref="char:EOLhyphen"/>fuſed notion that elegancy of ſpeech conſiſts, as indeed it doth, in having ſomething extraordi<g ref="char:EOLhyphen"/>nary, or above the vulgar phraſe, and know not in the mean time how to come by it; ſeek out all the uncouth words that they can find in <hi>Plau<g ref="char:EOLhyphen"/>tus,</hi> or <hi>Apulens,</hi> or the like books, and think themſelves more elegant than <hi>Tully,</hi> if they can but beſprinkle their ſpeech thick enough with ſuch as theſe; but theſe are rather to be accounted Antiquaries than Linguiſts; and for the love of old things (as <hi>Eraſmus</hi> ſaith) deſerve to live up<g ref="char:EOLhyphen"/>on nothing but rotten Eggs and ſtinking Beef, and wear old Shoes and torn Breeches. Hitherto I have told you the abuſes that are commonly made of Books and Authors in gaining of Elo<g ref="char:EOLhyphen"/>quence; I ſhall now ſhew you the true uſe that is to be made of them, and that is double.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>What is the firſt?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>The firſt uſe that may be made of Orators and Poets for this purpoſe, is this: That the
+<pb n="39" facs="tcp:104580:22"/>
+reading of them raiſeth a mans fancy, and hath a peculiar force to put it in a frame of expreſſing things out of the vulgar road. A mans brain is of a ducible pliable nature, eaſily moulded and conformed to what it is moſt converſant about: you ſhall frequently obſerve, that one man by keeping company with another, will get the ſame garb and carriage, will talk like him, diſ<g ref="char:EOLhyphen"/>courſe like him, expreſs himſelf after the ſame manner; all which he hath not got with in<g ref="char:EOLhyphen"/>duſtry, and ſet purpoſe of learning them, but e<g ref="char:EOLhyphen"/>ven inſenſibly and before he was aware, only by converſing with him. It is juſt ſo in reading of Authors, which if a man be converſant in, though without any intention of learning their expreſſion and ſtile, yet he ſhall find himſelf in<g ref="char:EOLhyphen"/>ſenſibly at laſt wrought to it, and if immediately after the reading of them he come to write or ſpeak any thing; he ſhall find he will write and ſpeak like them, which is not unknown to thoſe that will undertake in a paper of Verſes to imi<g ref="char:EOLhyphen"/>tate any of the old Poets, as <hi>Virgil, Ovid, Claudian,</hi> &amp;c. as we ſee <hi>Strada</hi> hath done moſt ſucceſſively in his <hi>Academical Proluſions.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Would you have me to read them only, without any endeavour to imitate their phraſe, or obſerve their ſtile, leaving that to come inſenſibly of it ſelf, as you ſay.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>It would not be amiſs now and then to ob<g ref="char:EOLhyphen"/>ſerve a good expreſſion, which pleaſeth you more than the reſt, that you may remember it, though
+<pb n="40" facs="tcp:104580:23"/>
+you do not make any uſe of it in your own ex<g ref="char:EOLhyphen"/>preſſion, but only lay it up in your fancy as the ſeed of other expreſſions to be moulded from it: And to this purpoſe it would not be amiſs now and then to get ſuch expreſſions and paſſages without book, or at leaſt frequently to read them over, becauſe this kind of exerciſe doth by little and little work your brains to this kind of ex<g ref="char:EOLhyphen"/>preſſion; ſo that upon the like occaſion it will naturally run of it ſelf into the like. Now as once or twice doing a thing is not ſufficient to produce an habit of ſuch actions, ſo doth not once or twice reading of an expreſſion leave a ſufficient touch upon the fancy, to wind it up to the like expreſſion upon the like occaſions: But there muſt be a frequency and iteration ſufficient to work and mould the brain to ſuch a kind of habit. So that when you light upon any Author, whoſe phraſe and manner of expreſſion pleaſeth you, and that you deſire to imitate him, I ſhall adviſe you to uſe none other means for the attain<g ref="char:EOLhyphen"/>ment of this imitation, but only frequently in reading of him, and here and there getting ſome<g ref="char:EOLhyphen"/>thing which you like beſt, without-book; of which getting without-book I ſhall tell you more by and by.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Would you not adviſe me rather to take a book upon the recommendation of ſome good Scholar, than of mine own choice?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>To take one upon another mans commen<g ref="char:EOLhyphen"/>dation perhaps would not be amiſs; but yet
+<pb n="41" facs="tcp:104580:23"/>
+there is ſuch variety in mens fancies in this parti<g ref="char:EOLhyphen"/>cular, that a book may be commended to you, and by a judicious Scholar too, which will never ſuit with your genius, and conſequently your fancy will never be moulded to the genius of it; or at leaſt, not with that ſucceſs which it would have been, had it been more ſuitable to your na<g ref="char:EOLhyphen"/>ture: And therefore I ſay, I ſhould rather of the two adviſe you to take one of your own choice.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Is there none that take any other courſe in reading of Authors, for gaining their ſtiles?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>I would not have you to ſuſpect this way, for I can approve it by mine own experience to be very ſucceſsful. There are indeed ſome who would have you to gather out the chief ex<g ref="char:EOLhyphen"/>preſſions; firſt turning the matter into a plain ſtile, and then obſerve how they have raiſed themſelves above the vulgar. But I conceive this way both more toilſome and tedious, and leſs effectual, as not conducing ſo much to the producing of that habit, and readineſs in the fancy, which is ſo neceſſary to a Language.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>What is the ſecond uſe that may be made of reading of Authors, for the attainment of ele<g ref="char:EOLhyphen"/>gancy in expreſſion?</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>The ſecond is more large, extending to what book ſoever you read, whereas the firſt is only of ſome one, at leaſt of few particularly, to which you tie your ſelf for imitation: And this it is, Though I would have you principally to de<g ref="char:EOLhyphen"/>pend
+<pb n="42" facs="tcp:104580:24"/>
+upon your own fancy for expreſſion, and on<g ref="char:EOLhyphen"/>ly be beholden to your Authors for the habit and readineſs in exerciſing them. Yet becauſe in all Authors of any worth, you ever and anon ſhall find ſome expreſſions and ſayings remarkable for wit and elegancy above the reſt, and ſuch as ordi<g ref="char:EOLhyphen"/>narily a mans own fancy will not furniſh him withal; ſuch as theſe I would have you write out, and commit to memory, not only for the uſe a<g ref="char:EOLhyphen"/>foreſaid, but alſo that you may have ready to in<g ref="char:EOLhyphen"/>ſert, either in ſpeech or writing upon occaſion; for ſuch it is lawful and warrantable to make uſe of, though they be not our own. And if the Au<g ref="char:EOLhyphen"/>thor be one in eſteem and Claſſical, it's better to name him than not, with this or the like form: As ſuch an one ſaith, or As ſuch an one expreſſeth it. But yet that with this <hi>proviſo,</hi> that ſuch raiſings and expreſſions be not already grown too com<g ref="char:EOLhyphen"/>mon and familiar in every mans mouth: for if they be, it is not good to uſe them, unleſs you in<g ref="char:EOLhyphen"/>vert and vary them by ſome Paronomacy, Amphi<g ref="char:EOLhyphen"/>boly, or the like; as if inſtead of <hi>O bone vir curaſti probè,</hi> you ſhould ſay, <hi>O bone vir juraſti probè;</hi> in<g ref="char:EOLhyphen"/>ſtead of <hi>vir ſapit qui pauca loquitur,</hi> you ſhould ſay, <hi>vir loquitur qui pauca ſapit:</hi> Inſtead of <hi>ne quid ni<g ref="char:EOLhyphen"/>mis, ne quid minùs.</hi> Or as if in an abuſive way you ſhould ſay, you knew ſuch a one to be ſuch a mans Son, becauſe he is like him; making uſe of that in <hi>Virgil, Sic canibus<g ref="char:punc">▪</g> catulos ſimiles, ſic matribus haedos noram.</hi> Or laſtly, as if in reproof of a deboiſt and idle Philoſopher, you ſhould apply that Greek
+<pb n="43" facs="tcp:104580:24"/>
+Proverbial ſentence, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. And this is the ſecond uſe you are to make of reading of Authors; and all I ſhall ſay for the pre<g ref="char:EOLhyphen"/>ſent of them, unleſs there be any thing elſe which you deſire to be ſatisfied in.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Sir, if you conceive theſe rules and directions ſufficient for the attainment of good Latine, I de<g ref="char:EOLhyphen"/>ſire no more.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>Only one thing or two I muſt put you in mind of, for a right uſe of the Collections, and ſo I ſhall leave you for the preſent. Firſt then, you muſt not think that the bare gathering of the Idiotiſms is ſufficient, but you muſt have ſome ſet times to look over them ſo often, and ſo frequently, that in a manner you have them without book. For take this for a certain and neceſſary rule, that though a man know never ſo many Phraſes and Idiotiſms, and have them in ſome meaſure without book, yet he ſhall never be able to make uſe of them or any thing elſe in diſcourſe, till by uſe he render them ſo familiar not only to his memory, but fancy alſo, that they come in of themſelves, without thinking of them, or ſtudying for them, which uſe and fre<g ref="char:EOLhyphen"/>quent repetition of them will eaſily and inſenſibly bring you to. But on the contrary, without this readineſs and habit thus gotten, whole Volums of Phraſes and Collections lying by you, not only in your books, as all acknowledge, but even in your memory alſo, which few conſider, will be as uſeleſs to you as Leſſons and Inſtruments of Muſick are to one that hath not the habit to play or ſing; and howſoever the frequent meeting with the ſame
+<pb n="44" facs="tcp:104580:25"/>
+Phraſes in the collecting of them, did bring this rea<g ref="char:EOLhyphen"/>dineſs in ſome, which indeed for the preſent are only uſeful for you, yet there ſtill remains much behind among them to be compleated by frequent reviews and relations.</p>
+               <p>In the ſecond place I muſt put you in mind of frequent Exerciſes, and making and writing of Latine, which indeed is the very life of all your la<g ref="char:EOLhyphen"/>bours, <hi>viz.</hi> whilſt you are learning the Idiom. E<g ref="char:EOLhyphen"/>piſtles, Dialogues, Relations, Stories, and the like, into which ſtile to bring as many as you can of your collected Idiotiſms; for that will make you both perfect in the uſe of ſuch as you have, and let you ſee where you are defective, which will make you more careful in the obſerving of thoſe which you want, and the finding of them more delightful.</p>
+               <p>Laſtly, know that beſides your collections, it will much conduce to the attainment of the Idiom of Latine, or any other Language, to make choice of ſome convenient Author to get without book, as I preſcribed you before for expreſſion, where I left you to your own choice, for the reaſons there al<g ref="char:EOLhyphen"/>ledged. But here I ſhall tye you to ſome part of ſome of your Authors, preſcribed for the Idiom: as for ex<g ref="char:EOLhyphen"/>ample, one of <hi>Terence</hi> his Comedies; two or three of <hi>Eraſmus</hi> his Colloquies, or a proportionable num<g ref="char:EOLhyphen"/>ber of <hi>Tully's</hi> Epiſtles; and that which you ſo get without-book, need not have collections made out of it; only it will be expedient, that at the firſt reading it over, as you go along, you turn it into as proper Engliſh as you can: This committing it to memory, or rather frequent reading it over, to com<g ref="char:EOLhyphen"/>mit
+<pb n="45" facs="tcp:104580:25"/>
+it to memory, doth as it were naturalize the Idiom to you, and ſo work and mould your fancy to it, and it will bring it to that familiarity and readi<g ref="char:EOLhyphen"/>neſs, which is very neceſſary for Language, as I have told you already: And becauſe I would not have you diſcouraged with the pains of getting without book, I do not require that you ſhould take that te<g ref="char:EOLhyphen"/>dious and weariſome way of committing it to me<g ref="char:EOLhyphen"/>mory, that School-boys do; but only tye your ſelf to read it over once or twice a day, till you find that you can readily, without help of memory, as it were only by a kind of natural rume of the fancy, repeat a clauſe or ſentence to the end of it, which will be e<g ref="char:EOLhyphen"/>nough for your purpoſe. Neither is it at all neceſſary, but rather prejudicial to repeat a whole page, or three or four, or a whole treatiſe from end to end by a continued recitation, which only rather burdens and dulls the memory, than helps the fancy to any readineſs of expreſſion. That you may more fully conceive my meaning herein, you muſt know the habit of a Language, or readineſs of mans expreſſing himſelf, is like that habit which a Muſician gets in his fingers, being ſuch as depend very little upon the memory, but rather upon the fancy, or indeed the nerves or motive faculty of the ſoul, wherein the habit reſides. For there are many which can re<g ref="char:EOLhyphen"/>member a whole leſſon perhaps upon the Lute, knowing both what notes and ſtroaks ſucceed one another, and how every one of them is to be ſtopt and ſtrucken, and yet for want of practice, or rather that habit and ready faculty which is got by practice cannot play that tune very well, perhaps not at all;
+<pb n="46" facs="tcp:104580:26"/>
+whereas another which hath the exerciſe and ha<g ref="char:EOLhyphen"/>bit, who perhaps if you put him to his memory be<g ref="char:EOLhyphen"/>fore hand, cannot tell two notes together how they are ſtruck, will notwithſtanding play the whole tune ſo readily and exactly, that he can ſcarce play otherwiſe if he would; only becauſe he hath got the habit or readineſs in his joynts and nerves, which by that alone run (as it were of themſelves) with<g ref="char:EOLhyphen"/>out any direction from the memory; ſo it is, I ſay, in learning a Language. Many will ſpeak very eloquently and properly upon ſuch a ſubject, who perhaps cannot repeat you two Phraſes out of any book and Author. The reaſon is, by uſe and ex<g ref="char:EOLhyphen"/>erciſe they have got that habit, which where it is, will bring in theſe Phraſes of themſelves, as it were when we think not of them; as it is eaſie to obſerve in the ſpeaking of our own Language, where we uſe a thouſand ſeveral expreſſions, readily without any ſtay; which if we conſult our memory for, we are to ſeek, as you will find ſufficiently by experi<g ref="char:EOLhyphen"/>ence, when you come in the Collections to Engliſh your Latine Idiotiſms, as I directed you, where you ſhall find your ſelf at a loſs many times for an Eng<g ref="char:EOLhyphen"/>liſh Phraſe; which if you had been in diſcourſe up<g ref="char:EOLhyphen"/>on that ſubject, you would never have ſtuck at. The ſum of all is the ſeeing, it is not the memory, though never ſo good, which is ſufficient for the perfection of a Language, though that be very ne<g ref="char:EOLhyphen"/>ceſſary too at the firſt beginning, but there muſt be this habit or readineſs alſo in the faculty of Lan<g ref="char:EOLhyphen"/>guage; it is ſo clear, that the attainment hereof, as all other habits, muſt depend much upon frequent
+<pb n="47" facs="tcp:104580:26"/>
+exerciſe, which is the reaſon that I commend to you above all things, this way for getting without book, which is more eaſie, and more effectual.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Me-thinks Sir, this way alone might be ſuffi<g ref="char:EOLhyphen"/>cient without all collections.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>No by no means, becauſe it is not ſo exact for the gaining of the Idiotiſm. You will leave ma<g ref="char:EOLhyphen"/>ny things unobſerved in reading, and getting with<g ref="char:EOLhyphen"/>out book, which you will not in collecting; and beſides, it will be neceſſary to collect out of more books than you can poſſibly get without book, though after this eaſie manner; yet it is alſo true, the more you get without book, the leſs you need collect.</p>
+               <p>And now I ſuppoſe I have ſatisfied your deſires, and furniſhed you with all neceſſary rules for making you a good Latiniſt: And not only ſo, but further alſo theſe ſame rules will direct you in ſome ſuffici<g ref="char:EOLhyphen"/>ent manner how to ſet your ſelf about learning any other Language. I was deſirous to take ſome op<g ref="char:EOLhyphen"/>portunity for this very purpoſe, which now in ſome meaſure I have fulfilled, and am glad this hath been offered, hoping you will make good uſe of it, for the attainment of this accompliſhment ſo neceſſary for a Scholar without it; though it cannot be deemed but our Engliſh are very defective in this particular, witneſs the few books written in Latine, in compa<g ref="char:EOLhyphen"/>riſon of what other Nations have; witneſs the ge<g ref="char:EOLhyphen"/>neral defect of our Nation in ſpeaking of Latine, where not one among forty, even in our Univerſi<g ref="char:EOLhyphen"/>ties, is able to entertain a Foreigner in that Lan<g ref="char:EOLhyphen"/>guage, which is ſo known a thing, that it is taken
+<pb n="48" facs="tcp:104580:27" rendition="simple:additions"/>
+notice of in all our neighbour Nations; wheras in other Countreys, but eſpecially in <hi>Holland,</hi> you ſhall not meet a Scholar, nor indeed a Gentleman, but will be able to hold you very good diſcourſe in Latine, upon any ſubject. It is uſual indeed with our Nation, that they may undervalue them, and excuſe themſelves, to ſay, That they can indeed ſpeak it very fluently; but that they ſpeak, is very plain and bald; where if they take plain and bald for one and the ſame thing, they betray their want of skill, both in that and all other Languages, ſuppoſing none to be good Latine but that which is made up of Poetical and Oratorical Phraſes. That their Latine is plain I grant; which kind of Latine is only proper for diſcourſe, as I have already ſhown, and indeed is moſt difficult to ſpeak; but that it is bald and impure I utterly deny: and indeed, though we ſhould grant it were ſo, which it is not, our Countrey-men might very well bear with them, who if put to diſcourſe, can ſeldom maintain it Grammatically true; which gene<g ref="char:EOLhyphen"/>ral defect amongſt us, I am verily perſuaded, and I think I have very good ground for it, is one of the chief, if not the only cauſe, which keeps Learning at ſo low an ebb in the generality of our Engliſh Clergy. For though our Com<g ref="char:EOLhyphen"/>mon-wealth have ſome men always eminent for Learning, which may enter compariſon with the beſt of Nations, yet it cannot be deny'd but thoſe are thin ſown, and that our Nation in the generality comes ſhort of others; but this is eaſier to bewail, than to know how to remedy, unleſs e<g ref="char:EOLhyphen"/>very one will undertake to mend one, which I hope you for your part will do.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>It is a thing Sir, which by Gods bleſſing, and the hope of your directions, I do fully intend.</p>
+            </sp>
+            <sp>
+               <speaker>P.</speaker>
+               <p>I hope you will, and doubt not but the way which I have ſet you in, will in ſhort time, and with eaſie pains make you Maſter of your deſires; and this I will aſſure you of for your better encouragement<g ref="char:punc">▪</g> that the content and benefit which you ſhall receive by it, will make a large recompence for your pains.</p>
+            </sp>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:104580:27"/>
+         </div>
+      </body>
+   </text>
+</TEI>
